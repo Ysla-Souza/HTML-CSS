@@ -1,0 +1,45 @@
+body{
+    background: blue url('img.png') no-repeat
+    right top;
+    
+}
+h1 {
+    color: #00ff00;
+}
+
+h2 {
+    color: rgb(255,0,0);
+}
+
+hr{
+    color: navy;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .item {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    color: #89A010;
+  }
+  
+
+p {
+    font-family: aril;
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    text-align: right;
+    color: blue
+    
+
+    }
+
+a:link {color: green;}
+a:visited {color: rgb(255, 0, 0);}
+a:hover {color: black;}
+a:active {color: blue;}
+
